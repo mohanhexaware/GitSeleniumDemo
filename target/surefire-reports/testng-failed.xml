@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="10" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTestPOM"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- tests.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
